@@ -22,6 +22,4 @@ for count2 in range(1, 20):
         url2_ref = j.find("a").get("href")
         info2 = j.find("span", class_="time-posted").text
 
-        print(vacancy2)
-        print(info2)
-        print(url2)
+        print(vacancy2+"\n"+info2+"\n"+url2)
